@@ -7,7 +7,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Darslar", "Darslar", "{1B3B
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Umumiy", "Umumiy", "{48E40A1C-8FC4-4B2C-875D-8B49F9E80C99}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JwtTokenApi", "Umumiy\JwtTokenApi\JwtTokenApi.csproj", "{E70A85C7-2A13-4574-95F2-2757B928910D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JwtTokenApi", "Umumiy\JwtTokenApi\JwtTokenApi.csproj", "{E70A85C7-2A13-4574-95F2-2757B928910D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwaggerDocumentationApi", "Umumiy\SwaggerDocumentationApi\SwaggerDocumentationApi.csproj", "{229D7A53-66C4-4F09-B492-F64A98C43E22}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,12 +21,17 @@ Global
 		{E70A85C7-2A13-4574-95F2-2757B928910D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E70A85C7-2A13-4574-95F2-2757B928910D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E70A85C7-2A13-4574-95F2-2757B928910D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{229D7A53-66C4-4F09-B492-F64A98C43E22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{229D7A53-66C4-4F09-B492-F64A98C43E22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{229D7A53-66C4-4F09-B492-F64A98C43E22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{229D7A53-66C4-4F09-B492-F64A98C43E22}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{E70A85C7-2A13-4574-95F2-2757B928910D} = {48E40A1C-8FC4-4B2C-875D-8B49F9E80C99}
+		{229D7A53-66C4-4F09-B492-F64A98C43E22} = {48E40A1C-8FC4-4B2C-875D-8B49F9E80C99}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {128F7230-FAB5-4B1E-A442-14876D580F39}

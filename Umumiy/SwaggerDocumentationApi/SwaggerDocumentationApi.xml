@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SwaggerDocumentationApi</name>
+    </assembly>
+    <members>
+        <member name="T:SwaggerDocumentationApi.Controllers.TestController">
+            <summary>
+            Testoviy controller
+            </summary>
+        </member>
+        <member name="M:SwaggerDocumentationApi.Controllers.TestController.GetTestMessage">
+            <summary>
+            Testoviy sobsheniyani olish
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SwaggerDocumentationApi.Controllers.TestController.SayHello(System.String)">
+            <summary>
+            Salom yo`llash
+            </summary>
+            <param name="name">Salom yo`naltirilgan inson ismi</param>
+            <returns></returns>
+        </member>
+        <member name="T:SwaggerDocumentationApi.Program">
+            <summary>
+            Kirish qismi 
+            </summary>
+        </member>
+        <member name="M:SwaggerDocumentationApi.Program.Main(System.String[])">
+            <summary>
+            Kirish metodi
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="M:SwaggerDocumentationApi.Program.CreateWebHostBuilder(System.String[])">
+            <summary>
+            Apini ishga tushirish
+            </summary>
+            <param name="args"></param>
+            <returns></returns>
+        </member>
+        <member name="T:SwaggerDocumentationApi.Startup">
+            <summary>
+            Apini sozlash
+            </summary>
+        </member>
+        <member name="P:SwaggerDocumentationApi.Startup.Configuration">
+            <summary>
+            App setting file bilan ishlash
+            </summary>
+        </member>
+        <member name="M:SwaggerDocumentationApi.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Apini sozlash
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="M:SwaggerDocumentationApi.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Apidagi servislarni sozlash
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:SwaggerDocumentationApi.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IHostingEnvironment)">
+            <summary>
+            Api dasturini sozlash
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+        </member>
+    </members>
+</doc>
