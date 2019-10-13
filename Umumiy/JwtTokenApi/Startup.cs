@@ -41,6 +41,7 @@ namespace JwtTokenApi
                 ValidIssuer = AuthConstants.ValidIssuer,
                 ValidAudience = AuthConstants.ValidAudience,
                 ValidateIssuer = true,
+
                 IssuerSigningKey = AuthConstants.GetSecurityKey(),
                 ValidateLifetime = true
             };

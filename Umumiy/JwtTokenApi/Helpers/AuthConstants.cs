@@ -14,12 +14,12 @@ namespace JwtTokenApi.Helpers
         public const string Key = "JwtTokenApiSecurityKey";
 
         /// <summary>
-        /// Qo`shimcha malumot
+        /// Token beruvchi haqida malumot
         /// </summary>
         public const string ValidIssuer = "ExampleIssuer";
 
         /// <summary>
-        /// Qo`shimcha malumot
+        /// Tokendan foydalanuvchi haqida malumot
         /// </summary>
         public const string ValidAudience = "ExampleAudience";
 
